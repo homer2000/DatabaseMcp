@@ -1,0 +1,35 @@
+[
+  {
+    "name":        "prod_postgres",
+    "description": "Production PostgreSQL — основная база приложения",
+    "db_type":     "postgres",
+    "host":        "db.example.com",
+    "port":        5432,
+    "database":    "production",
+    "username":    "app_user",
+    "password":    "secret123",
+    "ssl_mode":    "require"
+  },
+  {
+    "name":        "dev_mysql",
+    "description": "Локальная MySQL для разработки",
+    "db_type":     "mysql",
+    "host":        "localhost",
+    "port":        3306,
+    "database":    "dev_db",
+    "username":    "dev",
+    "password":    "devpass",
+    "ssl_mode":    ""
+  },
+  {
+    "name":        "local_sqlite",
+    "description": "SQLite файл для тестов",
+    "db_type":     "sqlite",
+    "host":        "",
+    "port":        0,
+    "database":    "/var/data/local.db",
+    "username":    "",
+    "password":    "",
+    "ssl_mode":    ""
+  }
+]
